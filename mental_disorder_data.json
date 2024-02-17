@@ -2,578 +2,575 @@
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
-        },
-        "output": "Normal"
-    },
-    {
-        "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
-        "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
-        },
-        "output": "Normal"
-    },
-    {
-        "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
-        "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
-        },
-        "output": "Normal"
-    },
-    {
-        "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
-        "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES ",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Most-Often",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "6 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "3 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Usually",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "3 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "2 From 10",
+            "Optimism": "9 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "8 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "7 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "9 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "9 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Usually",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "1 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "NO",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "6 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "3 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
@@ -581,734 +578,812 @@
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Most-Often",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "3 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Seldom",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "6 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Seldom",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "8 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Sexual Activity": "4 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Sexual Activity": "3 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Most-Often",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "2 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Sexual Activity": "4 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Sexual Activity": "3 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Most-Often",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "1 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "1 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "3 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Most-Often",
+            "Sleep Disorder": "Most-Often",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Most-Often",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
+            "Overthinking": "YES",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "2 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Most-Often",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
@@ -1317,55 +1392,61 @@
             "Euphoric": "Usually",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "6 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "8 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "5 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
@@ -1373,103 +1454,134 @@
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Seldom",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "5 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "YES",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "4 From 10"
+        },
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
+    },
+    {
+        "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
+        "input": {
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
@@ -1477,294 +1589,347 @@
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Overthinking": "YES",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "2 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "2 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "6 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "NO",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "6 From 10"
+        },
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
+    },
+    {
+        "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
+        "input": {
+            "Sadness": "Most-Often",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "2 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Most-Often",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "8 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "6 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "1 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "9 From 10",
+            "Concentration": "2 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Most-Often",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "4 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
@@ -1775,490 +1940,563 @@
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "1 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "8 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "1 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "5 From 10",
+            "Concentration": "5 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Most-Often",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "2 From 10",
+            "Optimism": "6 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "3 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "2 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Overthinking": "YES",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "1 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "1 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "6 From 10",
+            "Concentration": "6 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Most-Often",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "4 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "2 From 10",
+            "Concentration": "4 From 10",
+            "Optimism": "4 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "1 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "8 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "1 From 10",
+            "Optimism": "1 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
+            "Overthinking": "YES",
+            "Sexual Activity": "3 From 10",
             "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Euphoric": "Most-Often",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "7 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "4 From 10",
+            "Concentration": "1 From 10",
+            "Optimism": "2 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
+            "Sadness": "Seldom",
             "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
-            "Aggressive Response": "NO",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
             "Ignore & Move-On": "YES",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "8 From 10",
+            "Concentration": "8 From 10",
+            "Optimism": "5 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Most-Often",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
-            "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
+            "Sexual Activity": "1 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "1 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
+            "Sadness": "Seldom",
+            "Euphoric": "Sometimes",
             "Sleep Disorder": "Usually",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
             "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Sexual Activity": "5 From 10",
+            "Concentration": "8 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
-            "Suicidal thoughts": "NO",
+            "Sadness": "Most-Often",
+            "Euphoric": "Seldom",
+            "Sleep Disorder": "Sometimes",
+            "Suicidal thoughts": "YES",
             "Anorexia": "NO",
             "Aggressive Response": "NO",
             "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Overthinking": "YES",
+            "Sexual Activity": "2 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "3 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
             "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
             "Suicidal thoughts": "NO",
             "Anorexia": "NO",
-            "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
-            "Nervous Break-down": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "NO",
+            "Nervous Break-down": "NO",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
-            "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
+            "Overthinking": "YES",
+            "Sexual Activity": "6 From 10",
+            "Concentration": "7 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-1"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
         "input": {
-            "Sadness": "Sometimes",
-            "Euphoric": "Usually",
-            "Sleep Disorder": "Usually",
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Sometimes",
             "Suicidal thoughts": "NO",
-            "Anorexia": "NO",
+            "Anorexia": "YES",
             "Aggressive Response": "NO",
-            "Ignore & Move-On": "YES",
+            "Ignore & Move-On": "NO",
             "Nervous Break-down": "YES",
             "Admit Mistakes": "NO",
-            "Overthinking": "NO",
+            "Overthinking": "YES",
+            "Sexual Activity": "1 From 10",
+            "Concentration": "5 From 10",
+            "Optimism": "3 From 10"
+        },
+        "output": {
+            "Expert's Diagnosis": "Bipolar Type-2"
+        }
+    },
+    {
+        "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
+        "input": {
+            "Sadness": "Usually",
+            "Euphoric": "Sometimes",
+            "Sleep Disorder": "Seldom",
+            "Suicidal thoughts": "YES",
+            "Anorexia": "YES",
+            "Aggressive Response": "YES",
+            "Ignore & Move-On": "YES",
+            "Nervous Break-down": "NO",
+            "Admit Mistakes": "YES",
+            "Overthinking": "YES",
             "Sexual Activity": "7 From 10",
-            "Concentration": "3 From 10",
-            "Optimism": "8 From 10"
+            "Concentration": "7 From 10",
+            "Optimism": "7 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Depression"
+        }
     },
     {
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
@@ -2277,6 +2515,8 @@
             "Concentration": "3 From 10",
             "Optimism": "8 From 10"
         },
-        "output": "Normal"
+        "output": {
+            "Expert's Diagnosis": "Normal"
+        }
     }
 ]

@@ -24,7 +24,7 @@ labels = df[['Expert Diagnose']]
 features = df[['Sadness', 'Euphoric', 'Sleep Disorder', 'Suicidal thoughts', 'Anorexia', 'Aggressive Response', 'Ignore & Move-On', 'Nervous Break-down', 'Admit Mistakes', 'Overthinking', 'Sexual Activity', 'Concentration', 'Optimism']]
 
 
-# defining the json template
+# definig the json template
 json_template = {
     
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
@@ -44,41 +44,34 @@ json_template = {
             "Optimism": "",
         },
         "output": {
-            "Expert Diagnose" : ""
     }
 }
 
-def write_json(features, labels, json_template, filename):
-  '''
-  Takes a dataframe and the JSON template as inputs and generates dataset
+import json
+import copy
 
-  Args : 
-  
-  features : Pandas DataFrame Object Containing all the features
+def populate_json_template(df, json_template):
+    '''
+    Takes the dataframe as input and outputs the final JSON data
 
-  labels : Pandas DataFrame Object Containing all the labels
+    Args : 
+    df : Pandas DataFrame Containing all the values
+    json_template : JSON template for data
 
-  json_template : A JSON template
+    Output :
+    Outputs the JSON data generated
+    '''
+    final_data = []
+    for _, row in df.iterrows():
+        current_data = copy.deepcopy(json_template)  # Create a deep copy of the template
+        for key in json_template['input']:
+            if key != 'Expert Diagnose':
+                current_data['input'][key] = str(row[key]) 
+        current_data['output']['Expert\'s Diagnosis'] = str(row['Expert Diagnose'])
+        final_data.append(current_data)
+    return final_data
 
-  Outputs : 
-
-  Writes to a <name>.json
-  '''
-  feature_names = list(features.columns)
-
-# iterating over the dataframe and populate the JSON template
-  json_output = []
-  for row in df.iterrows():
-      json_object = json_template.copy()
-      for i in feature_names:
-        json_object['input'][str(i)] = row[1][str(i)]
-      for row in labels.iterrows():
-          json_object['output'] = row[1]['Expert Diagnose']
-      json_output.append(json_object)
-
-
-  # writing the JSON output to a file
-  with open(f'{filename}.json', 'w') as f:
-      json.dump(json_output, f, indent=4)
-
-write_json(features, labels, json_template, filename)
+# Example usage
+populated_data = populate_json_template(df, json_template)
+with open(f'{filename}.json', 'w') as f:
+    json.dump(populated_data, f, indent=4)
