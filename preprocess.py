@@ -24,7 +24,7 @@ labels = df[['Expert Diagnose']]
 features = df[['Sadness', 'Euphoric', 'Sleep Disorder', 'Suicidal thoughts', 'Anorexia', 'Aggressive Response', 'Ignore & Move-On', 'Nervous Break-down', 'Admit Mistakes', 'Overthinking', 'Sexual Activity', 'Concentration', 'Optimism']]
 
 
-# definig the json template
+# defining the json template
 json_template = {
     
         "instruction": "Given below is the values of certain features which are essential to predict the emotional state of a person. Read the feature values and try to predict the emotional status of the person.",
